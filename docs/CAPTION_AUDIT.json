@@ -1,0 +1,74 @@
+{
+  "caption_data_version": "train-captions-v1",
+  "datasets": [
+    {
+      "dataset": "isic2018",
+      "num_captions": 10015,
+      "caption_json_sha256": "c2bd95e8f2e1c616e038625624a8c6002922777b60b81563a4aca4686b1c7391",
+      "matches_current_train_split": true,
+      "validation_test_id_overlap": 0,
+      "validation_test_source_overlap": 0,
+      "class_name_prepended": true,
+      "recorded_manifest_sha256": "972b52f61961f7940560d36105b17ece766834246a5de5f5819a1904c5892fb3",
+      "current_manifest_sha256": "972b52f61961f7940560d36105b17ece766834246a5de5f5819a1904c5892fb3",
+      "recorded_manifest_hash_matches_current": true,
+      "sensitive_pattern_counts": {
+        "email": 0,
+        "absolute_local_path": 0,
+        "credential": 0,
+        "ipv4": 0,
+        "explicit_identifier": 0
+      },
+      "privacy_scope": "Pattern scan only, not a comprehensive de-identification or licensing certificate.",
+      "cache_provenance": {
+        "dataset": "isic2018",
+        "caption_json_sha256": "c2bd95e8f2e1c616e038625624a8c6002922777b60b81563a4aca4686b1c7391",
+        "cache_caption_hash_matches": true,
+        "cache_model": "openai/clip-vit-base-patch32",
+        "cache_split": "train-only",
+        "cache_sample_ids_match_in_order": true,
+        "cache_source_ids_match_in_order": true,
+        "cache_embedding_shape": [
+          10015,
+          512
+        ],
+        "cache_sha256": "be17cd06d2b930760066f7ad0f1cd624ba5b88d3a6532011b55cd20175cf4e7f"
+      }
+    },
+    {
+      "dataset": "kvasir",
+      "num_captions": 5600,
+      "caption_json_sha256": "8dbf87b0c78d97eed38fb305dec557da5e8961be7558d2964bbc11fb3a4b8ee2",
+      "matches_current_train_split": true,
+      "validation_test_id_overlap": 0,
+      "validation_test_source_overlap": 0,
+      "class_name_prepended": true,
+      "recorded_manifest_sha256": "f56f37953964fc1e256414aeb6b9290301370e359b075c7b56869555ce22e785",
+      "current_manifest_sha256": "16f5124d3321265f3bac90f5bdd86e51b2385fd146c2334d4d8bcb778e694609",
+      "recorded_manifest_hash_matches_current": false,
+      "sensitive_pattern_counts": {
+        "email": 0,
+        "absolute_local_path": 0,
+        "credential": 0,
+        "ipv4": 0,
+        "explicit_identifier": 0
+      },
+      "privacy_scope": "Pattern scan only, not a comprehensive de-identification or licensing certificate.",
+      "cache_provenance": {
+        "dataset": "kvasir",
+        "caption_json_sha256": "8dbf87b0c78d97eed38fb305dec557da5e8961be7558d2964bbc11fb3a4b8ee2",
+        "cache_caption_hash_matches": true,
+        "cache_model": "openai/clip-vit-base-patch32",
+        "cache_split": "train-only",
+        "cache_sample_ids_match_in_order": true,
+        "cache_source_ids_match_in_order": true,
+        "cache_embedding_shape": [
+          5600,
+          512
+        ],
+        "cache_sha256": "881bcbecfed0f499f5d7c5bc4c536c194ee0b257af30323967e666ca0256f076"
+      }
+    }
+  ],
+  "scope": "Original JSON bytes preserved; raw training captions only; no weights, image data, or evaluation captions. Pattern checks do not establish redistribution rights."
+}

@@ -1,0 +1,8 @@
+# Install a PyTorch/torchvision pair appropriate for your platform first.
+torch>=2.3
+torchvision>=0.18
+transformers==4.39.3
+numpy>=1.26,<3
+Pillow>=10
+PyYAML>=6
+pytest>=8

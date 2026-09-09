@@ -1,0 +1,696 @@
+[
+  {
+    "destination": "verimir/losses.py",
+    "symbol": "caption_loss_class_scale",
+    "source": "verimir/losses.py",
+    "source_lines": [
+      14,
+      19
+    ],
+    "symbol_sha256": "1557599aee4a8901ccc22caa080477af087851820394ecd16f270dc4c14c76f7",
+    "source_file_sha256": "d142d8d9dddbea18dca1d94fbe8a35a53dc7465d8da04d028a89ac4a74aeb276"
+  },
+  {
+    "destination": "verimir/losses.py",
+    "symbol": "weighted_mean",
+    "source": "verimir/losses.py",
+    "source_lines": [
+      22,
+      23
+    ],
+    "symbol_sha256": "06bbaf0474a19f7cb7c011235ed39acd67d91c0c0abb731bc01ab013da7afc1f",
+    "source_file_sha256": "d142d8d9dddbea18dca1d94fbe8a35a53dc7465d8da04d028a89ac4a74aeb276"
+  },
+  {
+    "destination": "verimir/losses.py",
+    "symbol": "verified_augmentation_gate",
+    "source": "verimir/losses.py",
+    "source_lines": [
+      26,
+      86
+    ],
+    "symbol_sha256": "40605b3396b64769bb9293ea13667355021c70b6b604b140c82de8eef84ba8c5",
+    "source_file_sha256": "d142d8d9dddbea18dca1d94fbe8a35a53dc7465d8da04d028a89ac4a74aeb276"
+  },
+  {
+    "destination": "verimir/losses.py",
+    "symbol": "verified_two_view_objective",
+    "source": "verimir/losses.py",
+    "source_lines": [
+      89,
+      117
+    ],
+    "symbol_sha256": "dd4db0d5f81343babb2a71474549b99e9a4bd12224b977f3ca48e50dde35dfc9",
+    "source_file_sha256": "d142d8d9dddbea18dca1d94fbe8a35a53dc7465d8da04d028a89ac4a74aeb276"
+  },
+  {
+    "destination": "verimir/losses.py",
+    "symbol": "verified_augmentation_allocation",
+    "source": "verimir/losses.py",
+    "source_lines": [
+      120,
+      144
+    ],
+    "symbol_sha256": "a635533dd50161508d2b9ac0bf32d1b2b8892d88ffe7ae07472486cf2a2b5ffc",
+    "source_file_sha256": "d142d8d9dddbea18dca1d94fbe8a35a53dc7465d8da04d028a89ac4a74aeb276"
+  },
+  {
+    "destination": "verimir/losses.py",
+    "symbol": "image_to_text_contrastive",
+    "source": "verimir/losses.py",
+    "source_lines": [
+      371,
+      392
+    ],
+    "symbol_sha256": "1896a9cb917cb84bdfe651e1bb886553176c41ed1a766d2e60dd0731cee3b350",
+    "source_file_sha256": "d142d8d9dddbea18dca1d94fbe8a35a53dc7465d8da04d028a89ac4a74aeb276"
+  },
+  {
+    "destination": "verimir/losses.py",
+    "symbol": "supervised_class_contrastive_loss",
+    "source": "verimir/losses.py",
+    "source_lines": [
+      395,
+      419
+    ],
+    "symbol_sha256": "faac8191d332a4312c22fb0e65a0b29b4b5a7193fd668d38c7c7cd5123d49edb",
+    "source_file_sha256": "d142d8d9dddbea18dca1d94fbe8a35a53dc7465d8da04d028a89ac4a74aeb276"
+  },
+  {
+    "destination": "verimir/losses.py",
+    "symbol": "angular_margin_classification_loss",
+    "source": "verimir/losses.py",
+    "source_lines": [
+      422,
+      452
+    ],
+    "symbol_sha256": "231c8f6b8ff3bc347f604c356bb22cf640de068b1e53a3243909e6850326db67",
+    "source_file_sha256": "d142d8d9dddbea18dca1d94fbe8a35a53dc7465d8da04d028a89ac4a74aeb276"
+  },
+  {
+    "destination": "verimir/losses.py",
+    "symbol": "evidential_fit_loss",
+    "source": "verimir/losses.py",
+    "source_lines": [
+      455,
+      476
+    ],
+    "symbol_sha256": "467e0552bc313c6ff7c246d40757797a0da8ead5733182b78f94ce32e35fbe5c",
+    "source_file_sha256": "d142d8d9dddbea18dca1d94fbe8a35a53dc7465d8da04d028a89ac4a74aeb276"
+  },
+  {
+    "destination": "verimir/losses.py",
+    "symbol": "koleo_uniformity_loss",
+    "source": "verimir/losses.py",
+    "source_lines": [
+      479,
+      494
+    ],
+    "symbol_sha256": "a3efe59bdbbf69f2064656310c1c36fb5bb5c5a3430f4e8093b2967a333e7218",
+    "source_file_sha256": "d142d8d9dddbea18dca1d94fbe8a35a53dc7465d8da04d028a89ac4a74aeb276"
+  },
+  {
+    "destination": "verimir/losses.py",
+    "symbol": "image_to_class_prototype_contrastive",
+    "source": "verimir/losses.py",
+    "source_lines": [
+      563,
+      578
+    ],
+    "symbol_sha256": "de895f1e9caf6d3ba1aad8d8a0985e209efc3cdf8aa35f2935fc452c476aecd3",
+    "source_file_sha256": "d142d8d9dddbea18dca1d94fbe8a35a53dc7465d8da04d028a89ac4a74aeb276"
+  },
+  {
+    "destination": "verimir/losses.py",
+    "symbol": "global_class_proxy_compactness_loss",
+    "source": "verimir/losses.py",
+    "source_lines": [
+      581,
+      605
+    ],
+    "symbol_sha256": "505dadd4323101c0b5f97b2ad973ff08e5a3faa3e8b54a8e9a95858b7a0bd317",
+    "source_file_sha256": "d142d8d9dddbea18dca1d94fbe8a35a53dc7465d8da04d028a89ac4a74aeb276"
+  },
+  {
+    "destination": "verimir/losses.py",
+    "symbol": "caption_class_prototypes",
+    "source": "verimir/losses.py",
+    "source_lines": [
+      608,
+      624
+    ],
+    "symbol_sha256": "f8b1ffe14d2459ab50959e84a0ebfe0d8c1e2ec1bb4ea973001c535c3dd3338f",
+    "source_file_sha256": "d142d8d9dddbea18dca1d94fbe8a35a53dc7465d8da04d028a89ac4a74aeb276"
+  },
+  {
+    "destination": "verimir/losses.py",
+    "symbol": "shrink_caption_embeddings",
+    "source": "verimir/losses.py",
+    "source_lines": [
+      627,
+      643
+    ],
+    "symbol_sha256": "6b2334573c37abb413793d57eb04d918785bd09f309cc661a47b323cd0c33b97",
+    "source_file_sha256": "d142d8d9dddbea18dca1d94fbe8a35a53dc7465d8da04d028a89ac4a74aeb276"
+  },
+  {
+    "destination": "verimir/losses.py",
+    "symbol": "pointwise_semantic_loss",
+    "source": "verimir/losses.py",
+    "source_lines": [
+      646,
+      647
+    ],
+    "symbol_sha256": "b4b20d3fb878fc4facd1998f23bcb79ac71e9f4bed159bd55ba17810103b3be9",
+    "source_file_sha256": "d142d8d9dddbea18dca1d94fbe8a35a53dc7465d8da04d028a89ac4a74aeb276"
+  },
+  {
+    "destination": "verimir/losses.py",
+    "symbol": "neighborhood_alignment_loss",
+    "source": "verimir/losses.py",
+    "source_lines": [
+      650,
+      673
+    ],
+    "symbol_sha256": "e3fb4c3c9943ee174a3d65a6c9b92b9ebcbc0409a7fe8ee43e0f78688a711d74",
+    "source_file_sha256": "d142d8d9dddbea18dca1d94fbe8a35a53dc7465d8da04d028a89ac4a74aeb276"
+  },
+  {
+    "destination": "verimir/losses.py",
+    "symbol": "_candidate_from_bank",
+    "source": "verimir/losses.py",
+    "source_lines": [
+      676,
+      697
+    ],
+    "symbol_sha256": "9209534f801bdcff9a3a97356594eba4e1989aac81c79778c29df39b8aab7fe6",
+    "source_file_sha256": "d142d8d9dddbea18dca1d94fbe8a35a53dc7465d8da04d028a89ac4a74aeb276"
+  },
+  {
+    "destination": "verimir/losses.py",
+    "symbol": "self_verified_roadmap_loss",
+    "source": "verimir/losses.py",
+    "source_lines": [
+      700,
+      835
+    ],
+    "symbol_sha256": "6d8320a02fca2f9b171be541e6ff6015114873930a916b8448fc8e229149d935",
+    "source_file_sha256": "d142d8d9dddbea18dca1d94fbe8a35a53dc7465d8da04d028a89ac4a74aeb276"
+  },
+  {
+    "destination": "verimir/losses.py",
+    "symbol": "build_bidirectional_top5_teacher",
+    "source": "verimir/losses.py",
+    "source_lines": [
+      1169,
+      1269
+    ],
+    "symbol_sha256": "072d80e45285cada0834a9d46685057b046c64e420109cf47863fa5c02e6bcb3",
+    "source_file_sha256": "d142d8d9dddbea18dca1d94fbe8a35a53dc7465d8da04d028a89ac4a74aeb276"
+  },
+  {
+    "destination": "verimir/losses.py",
+    "symbol": "self_verified_bidirectional_top5_support_loss",
+    "source": "verimir/losses.py",
+    "source_lines": [
+      1272,
+      1607
+    ],
+    "symbol_sha256": "5d8f08895db5f05c85dec4cdd27f62aa53b0e77fb251e22b59a8b00d39bb901d",
+    "source_file_sha256": "d142d8d9dddbea18dca1d94fbe8a35a53dc7465d8da04d028a89ac4a74aeb276"
+  },
+  {
+    "destination": "verimir/losses.py",
+    "symbol": "weighted_batch_hard_triplet",
+    "source": "verimir/losses.py",
+    "source_lines": [
+      2045,
+      2116
+    ],
+    "symbol_sha256": "616f08f1d1739d4f469cacfaa2bf95b22c32d191d9cce9f5d451c016cbd02698",
+    "source_file_sha256": "d142d8d9dddbea18dca1d94fbe8a35a53dc7465d8da04d028a89ac4a74aeb276"
+  },
+  {
+    "destination": "verimir/losses.py",
+    "symbol": "disagreement_hard_mining_loss",
+    "source": "verimir/losses.py",
+    "source_lines": [
+      2119,
+      2161
+    ],
+    "symbol_sha256": "4dad6897cc1b8ece303dac88d2bbcdd7e1e878cba78086190ec35ecaa31076bc",
+    "source_file_sha256": "d142d8d9dddbea18dca1d94fbe8a35a53dc7465d8da04d028a89ac4a74aeb276"
+  },
+  {
+    "destination": "verimir/losses.py",
+    "symbol": "fused_ranking_loss",
+    "source": "verimir/losses.py",
+    "source_lines": [
+      2164,
+      2194
+    ],
+    "symbol_sha256": "1846f32245be4b5c1c9a88afcc01e011309a311803f0d85c4ddaee7f2da3abdc",
+    "source_file_sha256": "d142d8d9dddbea18dca1d94fbe8a35a53dc7465d8da04d028a89ac4a74aeb276"
+  },
+  {
+    "destination": "verimir/losses.py",
+    "symbol": "CompositeLoss",
+    "source": "verimir/losses.py",
+    "source_lines": [
+      2197,
+      2368
+    ],
+    "symbol_sha256": "cbe17fcf9523e593bc5d12485920b7367246f5fc4f388795cfadf49d4004001e",
+    "source_file_sha256": "d142d8d9dddbea18dca1d94fbe8a35a53dc7465d8da04d028a89ac4a74aeb276"
+  },
+  {
+    "destination": "verimir/losses.py",
+    "symbol": "batch_all_triplet_loss",
+    "source": "verimir/losses.py",
+    "source_lines": [
+      2371,
+      2390
+    ],
+    "symbol_sha256": "ece9eb1b56bae92b6c4e119f6118a185f779e530f6ba8b5226fa7690276b1021",
+    "source_file_sha256": "d142d8d9dddbea18dca1d94fbe8a35a53dc7465d8da04d028a89ac4a74aeb276"
+  },
+  {
+    "destination": "verimir/retrieval.py",
+    "symbol": "validate_beta",
+    "source": "verimir/retrieval.py",
+    "source_lines": [
+      10,
+      12
+    ],
+    "symbol_sha256": "9fc263b9aff15e3f617c9988d8410f9a71c3c1a9ad67a8da0c1783d903801535",
+    "source_file_sha256": "f9d2bff51bc3382609e4bbca9b0cebe7604b33bef735ac7fa7fe812c00afc671"
+  },
+  {
+    "destination": "verimir/retrieval.py",
+    "symbol": "validate_appearance_weight",
+    "source": "verimir/retrieval.py",
+    "source_lines": [
+      15,
+      17
+    ],
+    "symbol_sha256": "64b0b96c0e33ddf573e5ffdd4d5a5e61841d73edcdf087772b0d6604db2c0820",
+    "source_file_sha256": "f9d2bff51bc3382609e4bbca9b0cebe7604b33bef735ac7fa7fe812c00afc671"
+  },
+  {
+    "destination": "verimir/retrieval.py",
+    "symbol": "calibrate_scores",
+    "source": "verimir/retrieval.py",
+    "source_lines": [
+      20,
+      21
+    ],
+    "symbol_sha256": "fcda5ef4d8be40fae0a1b2597d98addbf18239d36d4b890bd7c9637b7552f770",
+    "source_file_sha256": "f9d2bff51bc3382609e4bbca9b0cebe7604b33bef735ac7fa7fe812c00afc671"
+  },
+  {
+    "destination": "verimir/retrieval.py",
+    "symbol": "fused_score",
+    "source": "verimir/retrieval.py",
+    "source_lines": [
+      24,
+      33
+    ],
+    "symbol_sha256": "9f05f82d20def8275aaa2c356b8b76d5309aadbb3e62c61f2a39eb521078e1ed",
+    "source_file_sha256": "f9d2bff51bc3382609e4bbca9b0cebe7604b33bef735ac7fa7fe812c00afc671"
+  },
+  {
+    "destination": "verimir/retrieval.py",
+    "symbol": "sample_branch_pair_stats",
+    "source": "verimir/retrieval.py",
+    "source_lines": [
+      1028,
+      1050
+    ],
+    "symbol_sha256": "f66b6ee6472f927dd7d592e3ecc4780f875f50713651821f162c085cca538e54",
+    "source_file_sha256": "f9d2bff51bc3382609e4bbca9b0cebe7604b33bef735ac7fa7fe812c00afc671"
+  },
+  {
+    "destination": "verimir/retrieval.py",
+    "symbol": "fit_train_zscore",
+    "source": "verimir/retrieval.py",
+    "source_lines": [
+      1053,
+      1054
+    ],
+    "symbol_sha256": "260ead755d605d4978c2c7a02da75fce1e3211231c155318950608e5e615d0da",
+    "source_file_sha256": "f9d2bff51bc3382609e4bbca9b0cebe7604b33bef735ac7fa7fe812c00afc671"
+  },
+  {
+    "destination": "verimir/retrieval.py",
+    "symbol": "strict_v2_metrics_from_scores",
+    "source": "verimir/retrieval.py",
+    "source_lines": [
+      1155,
+      1233
+    ],
+    "symbol_sha256": "5dd40a9a2a96a51942149195682d3ee462d64c867f67c8ab24e57d85eadca96f",
+    "source_file_sha256": "f9d2bff51bc3382609e4bbca9b0cebe7604b33bef735ac7fa7fe812c00afc671"
+  },
+  {
+    "destination": "verimir/gradient_agreement.py",
+    "symbol": "retrieval_interface_parameters",
+    "source": "verimir/gradient_agreement.py",
+    "source_lines": [
+      8,
+      36
+    ],
+    "symbol_sha256": "af562c8878f51d13e37c685e0a71327e5debb18717f54b956a727a912405e4dd",
+    "source_file_sha256": "f443e0cbcca71af5f7c8915789c32cb79af9b2d056439978450e1606c5f513a3"
+  },
+  {
+    "destination": "verimir/gradient_agreement.py",
+    "symbol": "_gradient_cosine",
+    "source": "verimir/gradient_agreement.py",
+    "source_lines": [
+      39,
+      96
+    ],
+    "symbol_sha256": "44e2bd7e88712fb57c8709124019745b410d48641978238e98f35a502d3cd906",
+    "source_file_sha256": "f443e0cbcca71af5f7c8915789c32cb79af9b2d056439978450e1606c5f513a3"
+  },
+  {
+    "destination": "verimir/gradient_agreement.py",
+    "symbol": "retrieval_interface_conflict_objective",
+    "source": "verimir/gradient_agreement.py",
+    "source_lines": [
+      99,
+      138
+    ],
+    "symbol_sha256": "c97ac028488f48e43861de08108e8e4b847295909c3c730241c75662af71eb02",
+    "source_file_sha256": "f443e0cbcca71af5f7c8915789c32cb79af9b2d056439978450e1606c5f513a3"
+  },
+  {
+    "destination": "verimir/heads.py",
+    "symbol": "ProjectionHead",
+    "source": "verimir/models.py",
+    "source_lines": [
+      178,
+      202
+    ],
+    "symbol_sha256": "869844b9a2cabd33e30db0e97af89a6ba65cc188fe1f618aae826a48a6931c0c",
+    "source_file_sha256": "8cc86f8b9473f42cc54ca94a819de8caebdb12ebc40cf1c4b1e968f3964c9bd9"
+  },
+  {
+    "destination": "verimir/heads.py",
+    "symbol": "ImageOnlyVeriMIR",
+    "source": "verimir/models.py",
+    "source_lines": [
+      635,
+      648
+    ],
+    "symbol_sha256": "6a6872944bd7f5035589ab5e9eb7fc1871aec487085040d4278ad835cb58470d",
+    "source_file_sha256": "8cc86f8b9473f42cc54ca94a819de8caebdb12ebc40cf1c4b1e968f3964c9bd9"
+  },
+  {
+    "destination": "verimir/bank.py",
+    "symbol": "MemoryBank",
+    "source": "verimir/reliability.py",
+    "source_lines": [
+      209,
+      267
+    ],
+    "symbol_sha256": "1d463c71cddae2003ad0d7eda7c70f72d306de86d88ac391f7101d4db6b3aceb",
+    "source_file_sha256": "03f041ebbf8455dd0ec930d4c7e8218cefeca6f8bc49d6d3e2572c5c72f2a634"
+  },
+  {
+    "destination": "verimir/bank.py",
+    "symbol": "_sha256_tensor",
+    "source": "verimir/reliability.py",
+    "source_lines": [
+      270,
+      276
+    ],
+    "symbol_sha256": "0e8d451cb0804f3bc4d8799fe63906b0ff6ad8f588fefa3b6e0c0b4bb75d71bb",
+    "source_file_sha256": "03f041ebbf8455dd0ec930d4c7e8218cefeca6f8bc49d6d3e2572c5c72f2a634"
+  },
+  {
+    "destination": "verimir/bank.py",
+    "symbol": "RankSnapshotBank",
+    "source": "verimir/reliability.py",
+    "source_lines": [
+      279,
+      409
+    ],
+    "symbol_sha256": "a4d0d5ab6ffc0dc5c9c1e782905147d7204d104a4a118af180e56ad5f23af0a8",
+    "source_file_sha256": "03f041ebbf8455dd0ec930d4c7e8218cefeca6f8bc49d6d3e2572c5c72f2a634"
+  },
+  {
+    "destination": "verimir/schedule.py",
+    "symbol": "_sv_bt5sd_effective_weight",
+    "source": "verimir/engine.py",
+    "source_lines": [
+      68,
+      78
+    ],
+    "symbol_sha256": "756fa28b4e04a8ffde9591a4a75b4f2cd8b8a9fca99ae98693d7e9639a403d2e",
+    "source_file_sha256": "0cebd2b98e80df1af15cc91bdfb68048745c2be54b55cb0cf6af3a3a1552931f"
+  },
+  {
+    "destination": "verimir/data.py",
+    "symbol": "load_manifest",
+    "source": "verimir/data.py",
+    "source_lines": [
+      431,
+      433
+    ],
+    "symbol_sha256": "972feb6a1cc90bfd8c6c0c70dcac1f1b74d1dcbd802d46aae6889babcd328681",
+    "source_file_sha256": "5a36c3fa5fc61b82aa12f2ac6f0eacdf3ead1d62382f2cf87caaa0d8704057a5"
+  },
+  {
+    "destination": "verimir/data.py",
+    "symbol": "clip_eval_transform",
+    "source": "verimir/data.py",
+    "source_lines": [
+      436,
+      442
+    ],
+    "symbol_sha256": "4b7500ae3785f22641f235f7d6315e6e24dbbd33c4bbea973a96e8cc2dc22ce6",
+    "source_file_sha256": "5a36c3fa5fc61b82aa12f2ac6f0eacdf3ead1d62382f2cf87caaa0d8704057a5"
+  },
+  {
+    "destination": "verimir/data.py",
+    "symbol": "clip_train_transform",
+    "source": "verimir/data.py",
+    "source_lines": [
+      445,
+      493
+    ],
+    "symbol_sha256": "14eb836e29297afc373963923caaba52bb0519725b358276266e6b8d24025875",
+    "source_file_sha256": "5a36c3fa5fc61b82aa12f2ac6f0eacdf3ead1d62382f2cf87caaa0d8704057a5"
+  },
+  {
+    "destination": "verimir/data.py",
+    "symbol": "TrainCaptionDataset",
+    "source": "verimir/data.py",
+    "source_lines": [
+      596,
+      684
+    ],
+    "symbol_sha256": "9fa73c4a2d1986182aa3974dced2943cef76219465545b24c78197626c8a84f1",
+    "source_file_sha256": "5a36c3fa5fc61b82aa12f2ac6f0eacdf3ead1d62382f2cf87caaa0d8704057a5"
+  },
+  {
+    "destination": "verimir/data.py",
+    "symbol": "DeterministicTrainDataset",
+    "source": "verimir/data.py",
+    "source_lines": [
+      687,
+      713
+    ],
+    "symbol_sha256": "eabecd2c297e117b2e1e8e3e86306119fc732955fed55743945a7657aef5ba4d",
+    "source_file_sha256": "5a36c3fa5fc61b82aa12f2ac6f0eacdf3ead1d62382f2cf87caaa0d8704057a5"
+  },
+  {
+    "destination": "verimir/data.py",
+    "symbol": "ImageOnlyEvalDataset",
+    "source": "verimir/data.py",
+    "source_lines": [
+      716,
+      742
+    ],
+    "symbol_sha256": "29da194af261005cbd8bdcab8483e058cae52e0983d49c1ee9ffa28848c50f1c",
+    "source_file_sha256": "5a36c3fa5fc61b82aa12f2ac6f0eacdf3ead1d62382f2cf87caaa0d8704057a5"
+  },
+  {
+    "destination": "verimir/data.py",
+    "symbol": "TrainImageOnlyCalibrationDataset",
+    "source": "verimir/data.py",
+    "source_lines": [
+      745,
+      774
+    ],
+    "symbol_sha256": "4e0a76d90b91dcb76d970b0dfdac9aec52d2309f996ae55a517243b95e72ed33",
+    "source_file_sha256": "5a36c3fa5fc61b82aa12f2ac6f0eacdf3ead1d62382f2cf87caaa0d8704057a5"
+  },
+  {
+    "destination": "verimir/data.py",
+    "symbol": "PKBatchSampler",
+    "source": "verimir/data.py",
+    "source_lines": [
+      777,
+      806
+    ],
+    "symbol_sha256": "f494e03a69fe63462cbc363cdd7a809274a7f7f3b34da58555e2363e2f8e920f",
+    "source_file_sha256": "5a36c3fa5fc61b82aa12f2ac6f0eacdf3ead1d62382f2cf87caaa0d8704057a5"
+  },
+  {
+    "destination": "verimir/checkpoint_soup.py",
+    "symbol": "_validate_ingredients",
+    "source": "verimir/checkpoint_soup.py",
+    "source_lines": [
+      14,
+      41
+    ],
+    "symbol_sha256": "7ae11c65e2d31445a15d1adc269e88bb15d0b7828c274e2bdb63c784635bc9a3",
+    "source_file_sha256": "5beb079355f2d6bf6761134f82218d44210bb42990d73f2d9d0edb5e5c7f9c9a"
+  },
+  {
+    "destination": "verimir/checkpoint_soup.py",
+    "symbol": "average_image_checkpoints",
+    "source": "verimir/checkpoint_soup.py",
+    "source_lines": [
+      44,
+      99
+    ],
+    "symbol_sha256": "7500ada1a59352cc847a622b63d023309d16593fd21d7a98d12f6c37f8daeb31",
+    "source_file_sha256": "5beb079355f2d6bf6761134f82218d44210bb42990d73f2d9d0edb5e5c7f9c9a"
+  },
+  {
+    "destination": "verimir/interpolation.py",
+    "symbol": "build_boundary_anchored_soup",
+    "source": "verimir/v143_soup.py",
+    "source_lines": [
+      9,
+      37
+    ],
+    "symbol_sha256": "c41e56b6c5c47b9351e421520054ab2d8fd80eb186b8417ef7cae31501372a11",
+    "source_file_sha256": "eda0c766de869ad005b39527517d61cd36627d37ad3863044e4a932f53e81f45"
+  },
+  {
+    "destination": "tests/test_verified_augmentation.py",
+    "source": "tests/test_verified_augmentation.py",
+    "source_file_sha256": "7ca258726a5c901213c231c0ece5401ab2c3aba09731028355999e7e0fb23114",
+    "copy": "whole_file"
+  },
+  {
+    "destination": "tests/test_gradient_agreement.py",
+    "source": "tests/test_gradient_agreement.py",
+    "source_file_sha256": "506faa759fbc658e4a3ecd221fd88ec12ca1e3d12b25bd554d1c3b94fc0f840b",
+    "copy": "whole_file"
+  },
+  {
+    "destination": "tests/test_bdb.py",
+    "symbol": "_bank",
+    "source": "tests/test_v140_bidirectional_top5_support.py",
+    "source_lines": [
+      14,
+      33
+    ],
+    "symbol_sha256": "5928712c778d3b59a3094c7d491fecda0f87ad46a42ce2afa0751e883c26728b",
+    "source_file_sha256": "71b1d7c096ee7e6019987ee35c845217e62f67afd2b1953f9917562f7df8c3c8"
+  },
+  {
+    "destination": "tests/test_bdb.py",
+    "symbol": "_teacher",
+    "source": "tests/test_v140_bidirectional_top5_support.py",
+    "source_lines": [
+      36,
+      43
+    ],
+    "symbol_sha256": "c63c7694df5f1b414d85755fd5be53af7d0c7742cedbaf119c74a589a64561b9",
+    "source_file_sha256": "71b1d7c096ee7e6019987ee35c845217e62f67afd2b1953f9917562f7df8c3c8"
+  },
+  {
+    "destination": "tests/test_bdb.py",
+    "symbol": "test_teacher_caches_exact_top5_and_rank6_to10_without_self",
+    "source": "tests/test_v140_bidirectional_top5_support.py",
+    "source_lines": [
+      46,
+      66
+    ],
+    "symbol_sha256": "4c29cc28436bec222a2837259a52853cd361166e922f122de1a28b1ee460308b",
+    "source_file_sha256": "71b1d7c096ee7e6019987ee35c845217e62f67afd2b1953f9917562f7df8c3c8"
+  },
+  {
+    "destination": "tests/test_bdb.py",
+    "symbol": "test_full_loss_is_finite_fp32_and_backpropagates_both_image_branches",
+    "source": "tests/test_v140_bidirectional_top5_support.py",
+    "source_lines": [
+      69,
+      108
+    ],
+    "symbol_sha256": "d1e5cbffdc71cb2001ec96bcbe53e7fd47adf68e41a0192aeb93125c9e11d524",
+    "source_file_sha256": "71b1d7c096ee7e6019987ee35c845217e62f67afd2b1953f9917562f7df8c3c8"
+  },
+  {
+    "destination": "tests/test_bdb.py",
+    "symbol": "test_v141_incoming_weight_matches_auditable_weighted_mean",
+    "source": "tests/test_v140_bidirectional_top5_support.py",
+    "source_lines": [
+      111,
+      143
+    ],
+    "symbol_sha256": "1ad6f913383c4387dbd4482b9354c6561b4df439484966f4bb8f5bb157ad2ae9",
+    "source_file_sha256": "71b1d7c096ee7e6019987ee35c845217e62f67afd2b1953f9917562f7df8c3c8"
+  },
+  {
+    "destination": "tests/test_bdb.py",
+    "symbol": "test_v141_rejects_invalid_incoming_weight",
+    "source": "tests/test_v140_bidirectional_top5_support.py",
+    "source_lines": [
+      146,
+      164
+    ],
+    "symbol_sha256": "d7b80ff48a4517d1607d972b45d1492fda120816379d88a45e142b7609557ebb",
+    "source_file_sha256": "71b1d7c096ee7e6019987ee35c845217e62f67afd2b1953f9917562f7df8c3c8"
+  },
+  {
+    "destination": "tests/test_bdb.py",
+    "symbol": "test_outgoing_only_has_no_incoming_loss_and_teacher_is_version_locked",
+    "source": "tests/test_v140_bidirectional_top5_support.py",
+    "source_lines": [
+      167,
+      205
+    ],
+    "symbol_sha256": "08e76fee4eb90ea48037793e355d543597387c6cfbd2647d9518937c8d65420c",
+    "source_file_sha256": "71b1d7c096ee7e6019987ee35c845217e62f67afd2b1953f9917562f7df8c3c8"
+  },
+  {
+    "destination": "tests/test_bdb.py",
+    "symbol": "test_incoming_zero_edge_case_is_differentiable_exact_zero",
+    "source": "tests/test_v140_bidirectional_top5_support.py",
+    "source_lines": [
+      208,
+      238
+    ],
+    "symbol_sha256": "9b80419d37c6537ccf2e4fccfaf1a162dcb7240e610fb1dc5b0b725fd902edad",
+    "source_file_sha256": "71b1d7c096ee7e6019987ee35c845217e62f67afd2b1953f9917562f7df8c3c8"
+  },
+  {
+    "destination": "tests/test_bdb.py",
+    "symbol": "test_teacher_rejects_duplicate_ids_and_too_small_bank",
+    "source": "tests/test_v140_bidirectional_top5_support.py",
+    "source_lines": [
+      241,
+      250
+    ],
+    "symbol_sha256": "704e22cefd390a4b7730637360044af5f4271c37d7fc9424fb9dbe802d4cfb68",
+    "source_file_sha256": "71b1d7c096ee7e6019987ee35c845217e62f67afd2b1953f9917562f7df8c3c8"
+  },
+  {
+    "destination": "tests/test_bdb.py",
+    "symbol": "test_v140_pulse_schedule_is_frozen",
+    "source": "tests/test_v140_bidirectional_top5_support.py",
+    "source_lines": [
+      253,
+      261
+    ],
+    "symbol_sha256": "4489a339d7e8d65fbe485b56ffb18ac06a46764b8d715b06f2488db59ff9fa43",
+    "source_file_sha256": "71b1d7c096ee7e6019987ee35c845217e62f67afd2b1953f9917562f7df8c3c8"
+  }
+]

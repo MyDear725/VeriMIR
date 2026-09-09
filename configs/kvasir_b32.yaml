@@ -1,0 +1,130 @@
+# Sanitized reference training configuration; see docs/TRAINING.md.
+method: verimir
+seed: 144042
+run_dir: outputs/kvasir/method
+data:
+  manifest: data/splits/kvasir_strict_seed42_dedup_v1.json
+  caption_cache: data/captions/kvasir_train_clip_b32.pt
+  image_size: 224
+model:
+  name: openai/clip-vit-base-patch32
+  embedding_dim: 512
+  clip_dim: 512
+  dropout: 0.1
+  residual_init: true
+  local_files_only: true
+  freeze_backbone: false
+  num_classes: 8
+training:
+  device: cuda:0
+  epochs: 20
+  classes_per_batch: 8
+  samples_per_class: 2
+  eval_batch_size: 128
+  workers: 4
+  lr: 1.0e-05
+  head_lr_multiplier: 4.0
+  weight_decay: 0.0001
+  amp: true
+  grad_clip: 5.0
+  use_augmented: true
+  checkpoint_last_interval: 20
+  save_full_best: false
+  lr_milestones:
+  - 4
+  lr_gamma: 0.2
+  init_image_only: null
+  ema_decay: 0.9
+  ema_start_epoch: 1
+  verified_augmentation: true
+  verified_augmentation_mode: residual
+  gradient_agreement:
+    enabled: true
+    policy: adaptive
+    probe: retrieval_interface
+    eps: 1.0e-12
+loss:
+  lambda_triplet: 1.0
+  lambda_itc: 0.2
+  lambda_semantic: 0.05
+  lambda_nad: 0.02
+  lambda_dhm: 0.05
+  lambda_rank: 0.05
+  triplet_margin: 0.2
+  dhm_margin: 0.2
+  rank_margin: 0.2
+  tau_itc: 0.07
+  tau_text_neighbor: 0.07
+  tau_semantic_neighbor: 0.07
+  gamma: 0.0
+  beta: 0.0
+  mining_threshold: 0.7
+  reliable_mining: false
+  use_label_reliability: true
+  use_caption_reliability: false
+  dhm_high_quantile: 0.8
+  dhm_low_quantile: 0.2
+  itc_mode: class_multi_positive
+  caption_residual_scale: 0.25
+  appearance_weight: 0.5
+  normalize_caption_loss_by_classes: true
+  caption_loss_reference_classes: 3
+  lambda_semantic_triplet: 0.0
+  lambda_appearance_supcon: 0.1
+  lambda_semantic_supcon: 0.0
+  tau_supcon: 0.07
+  lambda_appearance_classification: 0.2
+  classification_scale: 16.0
+  classification_margin: 0.1
+  classification_active_epochs: 4
+  lambda_banked_recall: 0.0
+  lambda_topk_margin_consistency: 0.0
+  lambda_positive_redundancy: 0.0
+  positive_redundancy_positive_rank: 2
+  positive_redundancy_top_k: 5
+  positive_redundancy_margin: 0.02
+  positive_redundancy_tau: 0.05
+  positive_redundancy_gate_floor: 0.25
+  positive_redundancy_gate_temperature: 0.1
+  positive_redundancy_disagreement_temperature: 0.5
+  positive_redundancy_epoch1_factor: 0.5
+  lambda_sv_bt5sd: 0.025
+  sv_bt5sd_include_incoming: true
+  sv_bt5sd_top_k: 5
+  sv_bt5sd_margin: 0.02
+  sv_bt5sd_huber_delta: 0.05
+  sv_bt5sd_gate_floor: 0.25
+  sv_bt5sd_gate_temperature: 0.1
+  sv_bt5sd_disagreement_temperature: 0.5
+  sv_bt5sd_teacher_chunk_size: 512
+  sv_bt5sd_incoming_weight: 0.1
+  sv_bt5sd_adaptive_incoming: true
+  sv_bt5sd_incoming_weight_min: 0.025
+  sv_bt5sd_incoming_weight_max: 0.1
+  sv_bt5sd_incoming_boundary_pivot: 0.2
+  sv_bt5sd_incoming_boundary_temperature: 0.05
+reliability:
+  enabled: false
+  warmup_epochs: 4
+  k_neighbors: 20
+  tau_neighbor: 0.07
+  distribution_smoothing: 0.001
+  bank_momentum: 0.9
+  ema_mu: 0.9
+  min_weight: 0.1
+  mining_threshold: 0.7
+  knn_backend: auto
+  chunk_size: 512
+  use_label_reliability: false
+  use_caption_reliability: false
+  caption_validation_mode: prototype_orthogonal
+  caption_validator_branch: appearance
+  bootstrap_from_raw: true
+fusion:
+  beta: 0.0
+  calibration: train_zscore
+  calibration_pairs: 100000
+  appearance_weight: 0.5
+evaluation:
+  primary_protocol: strict_v2
+  selection_metric: mAP
