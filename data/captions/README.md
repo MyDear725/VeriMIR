@@ -11,7 +11,7 @@ Each record contains `sample_id`, `source_id`, and `caption`. Kvasir source IDs 
 
 The original JSON bytes are preserved, including record order and metadata. Their SHA256 values match the caption-file hashes embedded in the reference CLIP ViT-B/32 training embedding caches. Both the sample IDs and source IDs also match those cache records in order. The original captions are not regenerated or rewritten for this release.
 
-Every record was checked against the current frozen training manifest by `(sample_id, source_id)`. Validation/test overlap is zero for both identifier types. Full counts, file hashes and cache provenance are recorded in `docs/CAPTION_AUDIT.json`.
+Every record was checked against the current frozen training manifest by `(sample_id, source_id)`. Validation/test overlap is zero for both identifier types. Full counts, file hashes and cache provenance are recorded in `code/docs/CAPTION_AUDIT.json`.
 
 **Kvasir historical metadata:** its caption file records an older complete-manifest hash. The current deduplicated manifest has a different hash, but its training records match the caption records exactly and have no overlap with its current validation/test records. The old metadata is deliberately retained to preserve the original cached-input hash; the audit report records both hashes. Do not interpret the old hash as a match to the current entire split file.
 

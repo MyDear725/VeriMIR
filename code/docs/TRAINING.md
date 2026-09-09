@@ -4,7 +4,7 @@ This release includes train/validation and fixed final-interpolation runners. `t
 
 ## Runnable entry points
 
-Prepare data as described in `data/README.md`, install dependencies and run from the repository root:
+Prepare data as described in `../data/README.md`, install dependencies and run from the `code/` directory:
 
 ```bash
 # One full-method arm. Default: 20 epochs, GPU cuda:0, local B/32 weights.
@@ -60,7 +60,7 @@ Use the same `VeriMIR` B/32 model and functions for both configurations. Class c
 
 ## Required lifecycle
 
-1. Prepare fixed split manifests and a **train-only** caption embedding cache from the provided training JSON files using `python -m scripts.cache_train_captions` (see `data/README.md`). Validate disjoint sample/source IDs and check patient/lesion overlap where metadata exists. `TrainCaptionDataset` requires cached caption IDs to equal train IDs exactly. Its samples have no `split` string by default; the caller must mark verified training batches with `batch['split']='train'` before using the integration helper.
+1. Prepare fixed split manifests and a **train-only** caption embedding cache from the provided training JSON files using `python -m scripts.cache_train_captions` (see `../data/README.md`). Validate disjoint sample/source IDs and check patient/lesion overlap where metadata exists. `TrainCaptionDataset` requires cached caption IDs to equal train IDs exactly. Its samples have no `split` string by default; the caller must mark verified training batches with `batch['split']='train'` before using the integration helper.
 2. Load the B/32 encoder, two 512-dimensional image projection heads and training-only appearance classifier. The semantic projection is applied to image features, not to caption embeddings. Text embeddings are fixed privileged targets.
 3. Compute caption class prototypes from the entire training cache using `caption_class_prototypes`. The reference target is `shrink_caption_embeddings` with residual scale 0.25. This is target preparation, **not caption self-verification**. The integration helper applies the class-count normalization of the ITC/semantic/neighborhood loss coefficients.
 4. Use the P×K training sampler: all classes per batch, two images per class, frozen dataset seed. Standard training augmentation and deterministic evaluation preprocessing are provided in `data.py`.

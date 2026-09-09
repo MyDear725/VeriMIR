@@ -3,8 +3,8 @@ method: verimir
 seed: 144018
 run_dir: outputs/isic2018/method
 data:
-  manifest: data/splits/isic2018_official_fixed_v1.json
-  caption_cache: data/captions/isic2018_train_clip_b32.pt
+  manifest: ../data/splits/isic2018_official_fixed_v1.json
+  caption_cache: ../data/captions/isic2018_train_clip_b32.pt
   image_size: 224
 model:
   name: openai/clip-vit-base-patch32

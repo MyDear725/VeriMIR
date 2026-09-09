@@ -51,7 +51,7 @@ def test_release_json_files_match_audited_bytes_and_counts():
     root=Path(__file__).resolve().parents[1]
     audit=json.loads((root/'docs/CAPTION_AUDIT.json').read_text())
     for item in audit['datasets']:
-        raw=(root/'data/captions'/f"{item['dataset']}_train_only.json").read_bytes()
+        raw=(root.parent/'data/captions'/f"{item['dataset']}_train_only.json").read_bytes()
         assert hashlib.sha256(raw).hexdigest()==item['caption_json_sha256']
         data=json.loads(raw)
         assert len(data['captions'])==item['num_captions']==data['num_captions']

@@ -1,0 +1,7 @@
+*
+!.gitignore
+!README.md
+!captions/
+!captions/README.md
+!captions/isic2018_train_only.json
+!captions/kvasir_train_only.json

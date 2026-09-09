@@ -3,8 +3,8 @@ method: verimir
 seed: 144042
 run_dir: outputs/kvasir/method
 data:
-  manifest: data/splits/kvasir_strict_seed42_dedup_v1.json
-  caption_cache: data/captions/kvasir_train_clip_b32.pt
+  manifest: ../data/splits/kvasir_strict_seed42_dedup_v1.json
+  caption_cache: ../data/captions/kvasir_train_clip_b32.pt
   image_size: 224
 model:
   name: openai/clip-vit-base-patch32
